@@ -3,7 +3,7 @@
 particlesJS("particles-js", {
   "particles": {
     "number": {
-      "value": 190,
+      "value": 150,
       "density": {
         "enable": true,
         "value_area": 800
@@ -126,6 +126,7 @@ setTimeout(function() {
     showCursor: true,
     cursorChar: '|',
     autoInsertCss: true,
+
     callback: function() {} // call function after typing is done
   });
 }, 0);
