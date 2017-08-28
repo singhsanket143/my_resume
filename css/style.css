@@ -30,7 +30,21 @@ body {
   top: 250px;
   left: 190px;
 }
-
+@media only screen and (max-width: 920px){
+  #name h1{
+    position: absolute;
+    font-size: 50px;
+    font-family: 'myFancyFont', Times, serif;
+    color: #f1f1f1;
+    top: 150px;
+    left: 50px;
+  }
+  #name .element0{
+    left: 50px;
+    font-size: 30px;
+    top: 250px;
+  }
+}
 
 .element0{
   position: absolute;
@@ -48,7 +62,7 @@ p{
   font-family:Roboto;
 }
 
-.navbar-default{
+.navbar-inverse{
   background:linear-gradient(41deg,#3d45b3,#eb4f6f);
   border:0;
   font-family:Poppins;
